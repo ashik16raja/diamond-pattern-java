@@ -1,0 +1,28 @@
+public class Diamond {
+    public static void main(String[] args){
+        for (int j=0;j<=9;j++) {
+            for (int i = 10-j; i >= 0; i--) {
+                System.out.print(" ");
+
+            }
+            int m=j*2;
+            for (int k=0;k<=m;k++){
+                System.out.print("*");
+            }
+            System.out.print("\n");
+        }
+        for (int j=10;j>=0;j--) {
+            for (int i = 10-j; i >= 0; i--) {
+                System.out.print(" ");
+
+            }
+            int m=j*2;
+            for (int k=0;k<=m;k++){
+                System.out.print("*");
+            }
+            System.out.print("\n");
+        }
+
+    }
+
+}
